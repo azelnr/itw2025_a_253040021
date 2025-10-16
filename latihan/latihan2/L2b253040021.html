@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<!-- Menandakan bahwa ini adalah dokumen HTML versi modern -->
+
+<html>
+<head>
+    <title>Latihan 2b</title>
+    <!-- <title> ... </title> ini untuk memberi judul pada tab browser -->
+</head>
+
+<body>
+<!-- Semua isi website akan ditampilkan di dalam <body> -->
+
+    <!-- Judul halaman -->
+    <h2 align="center"><u>Latihan 2 - Form + Tabel</u></h2>
+    <!-- <h2> adalah heading besar -->
+    <!-- align="center" membuat teks di tengah -->
+    <!-- <u> untuk memberi garis bawah (underline) -->
+
+    <!-- Awal Form -->
+    <form>
+    <!-- <form> digunakan untuk membuat formulir input data -->
+
+    <!-- Membuat tabel -->
+    <table border="1" cellpadding="5" cellspacing="0" align="center">
+        <!-- border="1" menampilkan garis tepi tabel -->
+        <!-- cellpadding memberi jarak antara teks dan garis kotak -->
+        <!-- cellspacing mengatur jarak antar kotak tabel -->
+        <!-- align="center" membuat tabel di tengah halaman -->
+
+        <tr bgcolor="gray">
+            <!-- <tr> adalah baris tabel -->
+            <!-- bgcolor memberi warna abu-abu pada baris ini -->
+            <th colspan="2">INPUT DATA MAHASISWA</th>
+            <!-- <th> digunakan untuk judul kolom dan otomatis tebal (bold) -->
+            <!-- colspan="2" artinya kolom ini melebar ke 2 kolom -->
+        </tr>
+
+        <!-- Baris untuk Username -->
+        <tr>
+            <td>Username</td>
+            <!-- <td> = table data, sel biasa dalam tabel -->
+            <td><input type="text" name="username"></td>
+            <!-- <input type="text"> untuk mengetik teks biasa -->
+            <!-- name="username" hanya digunakan untuk keperluan form (tidak muncul di tampilan) -->
+        </tr>
+
+        <!-- Baris untuk Password -->
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+            <!-- type="password" membuat teks jadi titik-titik (rahasia) -->
+        </tr>
+
+        <!-- Baris untuk Fullname -->
+        <tr>
+            <td>Fullname</td>
+            <td><input type="text" name="fullname"></td>
+        </tr>
+
+        <!-- Baris untuk Email -->
+        <tr>
+            <td>E-mail</td>
+            <td><input type="email" name="email"></td>
+            <!-- type="email" otomatis memeriksa apakah format email benar -->
+        </tr>
+
+        <!-- Baris untuk dropdown Agama -->
+        <tr>
+            <td>Agama</td>
+            <td>
+                <select name="agama">
+                    <!-- <select> membuat menu pilihan (dropdown) -->
+                    <option>--Pilih Agama--</option>
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Buddha</option>
+                    <option>Konghucu</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- Baris untuk Jenis Kelamin -->
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+                <!-- type="radio" artinya hanya bisa pilih satu -->
+                <!-- name="jk" sama agar hanya satu pilihan aktif -->
+            </td>
+        </tr>
+
+        <!-- Baris untuk Hobi -->
+        <tr>
+            <td>Hobi</td>
+            <td>
+                <input type="checkbox" name="hobi" value="Musik"> Musik
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                <input type="checkbox" name="hobi" value="Gaming"> Gaming
+                <input type="checkbox" name="hobi" value="Lainnya"> Lainnya
+                <!-- checkbox artinya bisa pilih lebih dari satu -->
+            </td>
+        </tr>
+
+        <!-- Baris untuk Profil Singkat -->
+        <tr>
+            <td>Profil singkat</td>
+            <td><textarea name="profil" rows="4" cols="30"></textarea></td>
+            <!-- <textarea> untuk mengetik teks panjang atau beberapa baris -->
+            <!-- rows = jumlah baris, cols = lebar kolom -->
+        </tr>
+
+        <!-- Tombol Submit -->
+        <tr>
+            <td colspan="2" align="right">
+                <input type="submit" value="Input">
+                <!-- type="submit" mengirim data form -->
+                <!-- value="Input" adalah teks yang muncul di tombol -->
+            </td>
+        </tr>
+
+    </table>
+    </form>
+    <!-- Akhir dari Form -->
+
+</body>
+</html>
+<!-- Akhir dari dokumen HTML -->
