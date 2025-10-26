@@ -1,0 +1,58 @@
+body {
+background-color: aqua;
+font-family: Georgia, serif;
+}
+
+h1 {
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 60px;
+color: darkblue;
+text-align: center;
+transition: color 0.3s ease; 
+}
+
+h4 {
+font-style: italic;
+text-align: right;
+}
+
+h3 {
+color: black;
+}
+
+h3 a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+h3 a:hover {
+color: rgb(190, 8, 8);
+text-decoration: underline;
+}
+
+p:first-of-type {
+color: rgb(255, 136, 0);
+text-align: center;
+transition: color 0.3s ease;
+}
+
+p:last-of-type {
+color: black;
+text-align: left;
+}
+
+p:last-of-type a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+p:last-of-type a:hover {
+    background-color: darkblue;
+    color: white;
+}
