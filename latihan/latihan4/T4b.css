@@ -1,0 +1,193 @@
+body {
+font-size: 16px/28px;
+background-color: darkred;
+font-family: 'Poppins', sans-serif;
+color: #222;
+margin: 0;
+padding: 0;
+transition: background-color 0.5s ease;
+}
+
+.container {
+width: 800px;
+margin: 40px auto;
+background-color: #fff;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+border-radius: 8px;
+overflow: hidden;
+}
+
+.header {
+padding: 20px;
+background: linear-gradient(90deg, crimson, darkred);
+color: white;
+border-bottom: 5px solid navy;
+}
+
+.header .judul {
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 1.5px;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header ul {
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+.header ul li {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+}
+
+.header a {
+text-decoration: none;
+color: white;
+background-color: rgba(255,255,255,0.1);
+padding: 8px 15px;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+
+.header a:hover {
+background-color: white;
+color: crimson;
+transform: scale(1.05);
+}
+
+.hero {
+height: 280px;
+background-image: url(img2/ezra.jpeg);
+background-size: cover;
+background-position: center;
+border: 5px solid navy;
+border-radius: 5px;
+transition: transform 0.4s ease;
+}
+
+.hero:hover {
+transform: scale(1.02);
+}
+
+.content {
+padding: 20px;
+line-height: 1.7;
+}
+
+.content h2 {
+font-size: 28px;
+font-weight: bold;
+border-left: 5px solid crimson;
+padding-left: 10px;
+color: navy;
+}
+
+.content .penulis {
+font-size: 12px;
+margin-top: 3px;
+color: #666;
+}
+
+.content .penulis a {
+color: crimson;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+.content .penulis a:hover {
+background-color: crimson;
+color: white;
+padding: 2px 4px;
+border-radius: 3px;
+}
+
+.content p {
+margin-bottom: 20px;
+font-size: 15px;
+text-align: justify;
+}
+
+.ironman, .spiderman, .batman, .superman, .antman, .ultraman, .venom {
+height: 200px;
+background-size: cover;
+background-position: center;
+border: 5px solid navy;
+border-radius: 5px;
+transition: transform 0.4s ease, box-shadow 0.3s ease;
+margin-bottom: 15px;
+}
+
+.ironman:hover, .spiderman:hover, .batman:hover, .superman:hover, .antman:hover, .ultraman:hover, .venom:hover {
+transform: scale(1.03);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.content .p3 span,
+.content .p4 span,
+.content .p5 span,
+.content .p6 span,
+.content .p7 span,
+.content .p8 span {
+font-size: 16px;
+font-weight: bold;
+color: crimson;
+}
+
+.referensi {
+padding: 20px;
+background-color: #fafafa;
+border-top: 2px dashed crimson;
+}
+
+.referensi .p .a {
+color: crimson;
+text-decoration: none;
+transition: color 0.3s ease, background-color 0.3s ease;
+}
+.referensi .p .a:hover {
+background-color: crimson;
+color: white;
+padding: 2px 5px;
+border-radius: 3px;
+}
+
+.footer {
+background-color: #222;
+padding: 15px;
+}
+
+.footer .copy {
+color: #eaeaea;
+text-align: center;
+font-size: 13px;
+letter-spacing: 1px;
+}
+
+.hero {
+    background-image: url(img2/ezra.jpeg);
+}
+.ironman {
+    background-image: url(img2/ezraajax.jpeg);
+}
+.spiderman {
+    background-image: url(img2/ezraalmere.jpeg);
+}
+.batman {
+    background-image: url(img2/ezrarkc.jpeg);
+}
+.superman {
+    background-image: url(img2/ezrapsm.jpeg);
+}
+.antman {
+    background-image: url(img2/ezrapersib.jpeg);
+}
+.ultraman {
+    background-image: url(img2/ezrapersik.jpeg);
+}
+.venom {
+    background-image: url(img2/ezratimnas.jpeg);
+}
