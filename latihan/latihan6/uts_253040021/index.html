@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANGERAN BIRU | Skuad Resmi PERSIB</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="pict/logo.png">
+</head>
+<body>
+
+    <header class="main-header" id="beranda">
+        <div class="container navbar">
+            <h1 class="logo"><i class="fas fa-shield-alt"></i> PERSIB</h1>
+            
+            <button class="hamburger-menu" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#beranda">BERANDA</a></li>
+                    <li><a href="#sejarah">SEJARAH</a></li>
+                    <li><a href="#skuad">PEMAIN</a></li>
+                    <li><a href="#statistik">STATISTIK</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <h2>Wilujeng Sumping Bobotoh!!!</h2>
+            <p>Ayo menjelajah di website ini mengenai sejarah <b>PANGERAN BIRU</b> dan profil lengkap 30 pemain tercinta Bobotoh periode Super League 2025/2026.</p>
+        </section>
+        
+        <section id="sejarah" class="part-sejarah history-section">
+            <h2><i class="fas fa-history"></i> SEJARAH MAUNG BANDUNG</h2>
+            <p>PERSIB adalah klub sepak bola Indonesia yang berbasis di Kota Bandung, Jawa Barat, dan saat ini merupakan peserta dari kompetisi tertinggi Indonesia, Liga 1.</p>
+            <p>Cikal bakal PERSIB adalah Bandoeng Inlandsche Voetbal Bond (BIVB) yang didirikan pada 05 Januari 1919. BIVB kala itu dibentuk sebagai perserikatan klub-klub sepakbola bumi putera pertama di Bandung.</p>
+            <p>Pada 19 April 1930, BIVB tercatat sebagai salah satu dari tujuh klub yang membidani lahirnya PSSI (Persatuan Sepakbola Seluruh Indonesia). Sebagai bagian dari alat perjuangan kemerdekaan Republik Indonesia, BIVB pun mengalami beberapa transformasi dan perubahan nama. Huruf "I" yang semula Indlansche menjadi Indonesische, lalu menjadi Perserikatan Sepakraga Indonesia Bandung (PSIB), hingga melakukan fusi bersama NVB (National Voetball Bond) dan berubah nama menjadi PERSIB pada 18 Maret 1934.</p>
+            <p>Sejak 9 September 2009, PERSIB kembali bertransformasi dan menjadi klub profesional di bawah pengelolaan PT PERSIB Bandung Bermartabat.</p>
+        </section>
+
+        <section id="statistik" class="team-stats">
+            <div class="container">
+                <h3>Fakta Skuad Musim Ini</h3>
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <h4>30</h4>
+                        <p>Total Pemain Skuad Inti</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>4</h4>
+                        <p>Pemain Asing</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>21</h4>
+                        <p>Rata-rata Usia Pemain</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>15</h4>
+                        <p>Total Piala</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>14</h4>
+                        <p>Pemain Jebolan Akademi</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <section id="skuad" class="gallery-container squad-section">
+            <h2><i class="fas fa-users"></i> PEMAIN</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="Semua">Semua</button>
+                <button class="filter-btn" data-filter="Penjaga Gawang">Kiper</button>
+                <button class="filter-btn" data-filter="Belakang">Belakang</button>
+                <button class="filter-btn" data-filter="Gelandang">Gelandang</button>
+                <button class="filter-btn" data-filter="Penyerang">Penyerang</button>
+            </div>
+            
+            <div class="gallery">
+                
+                <div class="item" data-id="1" data-posisi="Penjaga Gawang" data-jersey-number="1">
+                    <img src="pict/adam.jpeg" alt="Adam J Przybek">
+                    <h4>Adam J Przybek</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Goal Keeper</p>
+                        <p class="data-kewarganegaraan">Wales</p>
+                        <p class="data-tempat-lahir">Nuneaton, Wales</p>
+                        <p class="data-tanggal-lahir">02 April 2000</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="2" data-posisi="Penjaga Gawang" data-jersey-number="66">
+                    <img src="pict/fitrah.jpeg" alt="Fitrah Maulana">
+                    <h4>Fitrah Maulana</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Goal Keeper</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Bandung</p>
+                        <p class="data-tanggal-lahir">24 Mei 2006</p>
+                        <p class="data-tanggal-gabung">01 Agustus 2024</p>
+                        <div class="data-deskripsi">
+                            <p>Muhammad Fitrah Maulana adalah satu dari pemain binaan Akademi PERSIB yang promosi ke tim senior. Liga 1 2024/2025 adalah musim pertamanya bergabung bersama skuad Pangeran Biru setelah musim sebelumnya menjalani program latihan bersama selama satu musim.</p>
+                            <p>Pemain yang ikut merasakan gelar juara AFF U-19 bersama Tim Nasional Indonesia ini sebelumnya juga masuk dalam tim kualifikasi Piala Asia U-20 dan Piala Dunia U-20 2025.</p>
+                            <p>Sementara karier bersama tim junior, pemain asal Bandung ini tampil bersama PERSIB U-18 dan PERSIB-U20 di Elite Pro Academy (EPA) 2023/2024. Potensi yang dimiliki Fitrah membuat pelatih kiper PERSIB, Luizinho Passos membawanya ke tim senior.</p>
+                            <p>Menjadi kiper muda yang baru promosi ini punya target tampil. Pengalaman bersama Tim Nassional Indonesia juga belajar dari rekan setimnya, Teja Paku Alam, Kevin Ray Mendoza, juga Sheva Sanggasi. Dia akan berusaha memaksimalkan kesempatan emas ini untuk belajar dan menempa sehingga siap untuk debut dan tampil regular di pertandingan resmi PERSIB. </p>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="item" data-id="3" data-posisi="Penjaga Gawang" data-jersey-number="34">
+                    <img src="pict/teja.jpeg" alt="Teja Paku Alam">
+                    <h4>Teja Paku Alam</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Goal Keeper</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Painan, Sumatera Barat</p>
+                        <p class="data-tanggal-lahir">13 Maret 1994</p>
+                        <p class="data-tanggal-gabung">28 Juni 2020</p>
+                        <div class="data-deskripsi">
+                            <p>Musim 2020 akan menjadi tantangan bagi Teja Paku Alam. Kiper asal tanah Sumatera ini untuk pertama kali pertama membela tim di luar pulau kelahirannya. Kondisi itu membuatnya harus melipatgandakan mental dan motivasi untuk timnya saat ini, PERSIB.</p>
+                            <p>Kiper yang pernah mengenyam pendidikan bersama PPLP Sumatera Barat ini mangawali karier profesionalnya bersama Sriwijaya FC pada tahun 2013. Setelah enam musim membela tim asal Palembang, dia hijrah membela Semen Padang pada tahun 2019.</p>
+                            <p>Lahir di Painan, 14 Maret 1994, anak kedua dari empat bersaudara pasangan Yusman ZK dan Haldihpul Dewi Putri ini, pada tahun 2011 hingga 2013, terpilih dalam tim SAD yang berguru ke Uruguay.</p>
+                            <p>Berbagai pengalaman itu membuatnya menjadi kiper pilihan pertama di Sriwijaya FC maupun Semen Padang. Musim 2019 dia tampil sebanyak 25 laga selama 2.250 menit bersama Semen Padang. Sementara saat membela Sriwijaya FC dari 2013-2018, pemain bernomor punggung 34 ini tampil selama 5.228 dalam 60 laga.</p>
+                            <p>Bersama Tim Nasional Indonesia, Teja juga turut mengantarkan Indonesia meraih posisi kedua AFF Championship 2016. Terakhir dia menjadi bagian Tim Merah Putih saat kualifikasi Piala Dunia 2022 di Qatar pada tahun 2019 lalu.</p>
+                            <p>Berbekal pengalaman tersebut, PERSIB punya banyak harapan buat Teja. Dia pun mendapat kontrak selama dua musim ke depan. Kondisi itu membuat PERSIB kini memiliki lima kiper di bawah mistar, yakni I Made Wirawan, Aqil Savik, Dhika Bayangkara, Teja Paku Alam dan M. Natshir yang masih dalam pemulihan cedera.</p>
+                            <p>"Insya Allah kalau dipercaya main, saya ingin memberikan penampilan terbaik. Mudah-mudahan bisa menjawab harapan bobotoh," kata Teja.</p>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="item" data-id="4" data-posisi="Belakang" data-jersey-number="45">
+                    <img src="pict/kevin.jpeg" alt="Kevin M.I Pasha">
+                    <h4>Kevin M.I Pasha</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir"></p>
+                        <p class="data-tanggal-gabung"></p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="5" data-posisi="Belakang" data-jersey-number="14">
+                    <img src="pict/barba.jpeg" alt="Federico Barba">
+                    <h4>Federico Barba</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Italia</p>
+                        <p class="data-tempat-lahir">Roma</p>
+                        <p class="data-tanggal-lahir">01 September 1993</p>
+                        <p class="data-tanggal-gabung"></p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="6" data-posisi="Belakang" data-jersey-number="72">
+                    <img src="pict/hamra.jpeg" alt="Al Hamra Hehanussa">
+                    <h4>Al Hamra Hehanussa</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Tanggerang</p>
+                        <p class="data-tanggal-lahir">01 Juli 1999</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>Al Hamra Hehanussa menjadi tambahan kekuatan baru untuk lini pertahanan PERSIB di Liga Super Indonesia di musim kompetisi 2025/26 dan AFC Champions League (ACL) Two. Pemain kelahiran 1 Juli 1999 ini merupakan seorang pemain bertahan dengan kemampuan membaca permainan yang baik, ditambah dengan insting mencetak gol.</p>
+                            <p>Hamra merupakan produk binaan Persija Jakarta yang melakoni debut profesional pada 22 Juni 2019 saat tampil sebagai starter di pertandingan Persija melawan Persela Lamongan di Stadion Surajaya, Kabupaten Lamongan. Bermain untuk tim Macan Kemayoran (2019–2022), Hamra mencatatkan empat kali penampilan.</p>
+                            <p>Hamra mulai menunjukkan kemampuannya dalam mencetak gol ketika ia masih bermain untuk Persik Kediri tepatnya pada putaran kedua Liga 1 musim kompetisi 2022/23. Selama membela tim Macan Putih, Ia bermain 10 kali dan mencetak 3 gol.</p>
+                            <p>Kemampuannya dalam mencetak gol masih terjaga ketika kembali ke Persija dimana Ia tampil 29 kali, mencetak 1 gol dan 1 assist dan di musim 2024/25 saat memperkuat Persik Kediri lagi. Di musim itu, ia juga tampil konsisten dengan bermain 29 kali, mencetak 1 gol dan menyumbang 2 assist.</p>
+                            <p>Pada gelaran Piala Presiden 2025, Hamra menjalani debut memperkuat PERSIB pada laga melawan Port FC di Stadion Si Jalak Harupat Kabupaten Bandung 6 Juli 2025. Saat itu, ia turun sejak menit pertama hingga pada menit 68 digantikan oleh bek asing Pangeran Biru, Patricio Matricardi.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="7" data-posisi="Belakang" data-jersey-number="26">
+                    <img src="pict/matricardi.jpeg" alt="Patricio M Matricardi">
+                    <h4>Patricio M Matricardi</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Argentina</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir">07 Januari 1994</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="8" data-posisi="Belakang" data-jersey-number="3">
+                    <img src="pict/julio.jpeg" alt="Julio Caesar">
+                    <h4>Julio Caesar</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Brasil</p>
+                        <p class="data-tempat-lahir">Anapolis Golas</p>
+                        <p class="data-tanggal-lahir">21 Maret 1995</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>Julio Cesar de Freitas Filho menjadi salah satu pemain asing yang akan diandalkan PERSIB di lini belakang untuk Super League musim 2025/2026. Bek asal Brasil yang memiliki postur tubuh 189 cm tersebut memiliki pengalaman bermain di Thailand, Kuwait dan Portugal.</p>
+                            <p>Pengalaman tersebut tercermin melalui gaya bermainnya yang tenang, kuat dalam duel udara, serta cerdas membaca permainan. Pada 26 Juni 2025, PERSIB pun memperkenalkannya sebagai rekrutan baru dengan kontrak berdurasi dua tahun kepada Bobotoh, melalui surat kabar.</p>
+                            <p>Perkenalan pemain baru tersebut dinilai unik oleh sejumlah pihak dan telah menggugah rasa nostalgia Bobotoh dalam mendapatkan informasi perihal klub kebanggaannya.</p>
+                            <p>Sejak itu, Cesar menjalani pramusim 2025/26 dengan mulus hingga dipercaya oleh pelatih Bojan Hodak untuk mengawal lini belakang PERSIB di pertandingan persahabatan menghadapi Western Sydney Wanderers di Stadion Gelora Bandung Lautan Api (GBLA), Kota Bandung, Sabtu, 2 Juli 2025.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="9" data-posisi="Belakang" data-jersey-number="19">
+                    <img src="pict/dewangga.jpeg" alt="Alfreanda Dewangga S">
+                    <h4>Alfreanda Dewangga S</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Semarang</p>
+                        <p class="data-tanggal-lahir">28 Juni 2001</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>Alfeandra Dewangga Santosa adalah salah satu bek tangguh yang direkrut PERSIB untuk mengarungi Liga Super Indonesia musim 2025/26 dan AFC Champions League (ACL) Two. Pemain kelahiran Semarang, 28 Juni 2001 itu juga dikenal piawai dalam menunaikan tugas di beberapa posisi di pertahanan, mulai dari bek tengah, bek kiri, maupun gelandang bertahan.</p>
+                            <p>Pada musim-musim sebelumnya, Dewangga bermain untuk PSIS Semarang. Di musim 2024-25 itu, ia mengoleksi 26 kali penampilan, mencetak 1 gol serta 2 assist. Total, ia mencatatkan 94 kali penampilan dan dan menyumbang 5 gol untuk Laskar Mahesa Jenar.</p>
+                            <p>Dewangga juga pernah memperkuat Tim Nasional (Timnas) Indonesia di berbagai kelompok umur, mulai dari U-19, U-23, dan senior. Di tahun 2023, ia ambil bagian di Timnas U-22 di bawah arahan pelatih Indra Sjafri, untuk berkontribusi di gelaran SEA Games Kamboja. Saat itu, Dewangga bersama Beckham Putra Nugraha sukses membawa pulang medali emas.</p>
+                            <p>Pada 6 Juli 2025, Dewangga mencatatkan debutnya membela PERSIB dengan tampil di laga Piala Presiden melawan Port FC yang bertempat di Stadion Si Jalak Harupat, Kabupaten Bandung. Dalam laga tersebut, Dewangga bermain sebagai starter sebagai bek kiri dan tampil solid selama 68 menit sebelum digantikan oleh Henhen Herdiana.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="10" data-posisi="Belakang" data-jersey-number="16">
+                    <img src="pict/jupe.jpeg" alt="Achmad Jufriyanto">
+                    <h4>Achmad Jufriyanto</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir">06 Maret 1987</p>
+                        <p class="data-tanggal-gabung">15 Juni 2022</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="11" data-posisi="Belakang" data-jersey-number="56">
+                    <img src="pict/rezaldi.jpeg" alt="Rezaldi Hehanussa">
+                    <h4>Rezaldi Hehanussa</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Jakarta</p>
+                        <p class="data-tanggal-lahir">11 Juli 1995</p>
+                        <p class="data-tanggal-gabung">30 Januari 2023</p>
+                        <div class="data-deskripsi">
+                            <p>Super League (sebelumnya Liga 1) 2025/26 akan menjadi musim ketiga bagi Muhammad Rezaldi Hehanussa dalam memperkuat PERSIB.</p>
+                            <p>Bule sapaan akrabnya merupakan pemain dengan posisi alami sebagai bek kiri yang dikenal tidak hanya disiplin dalam bertahan tapi juga memiliki kualitas umpan silang yany akurat.</p>
+                            <p>Kemampuan tersebut yang mengantarkan dirinya memperkuat Tim Nasional (Timnas) Indonesia U23 di SEA Games, Kuala Lumpur Malaysia 2017. Setahun berselang, untuk pertama kalinya, Rezaldi juga mampu mengangkat trofi juara Liga 1 bersama klubnya saat itu, Persija Jakarta</p>
+                            <p>Pada jendela transfer paruh musim 2022/23, Rezaldi bergabung dengan PERSIB yang saat itu dilatih Luis Milla Aspas. Lalu tepatnya pada 31 Januari 2023, pemain kelahiran Jakarta, 7 November 1995 itu melakoni debut berkostum Pangeran Biru saat menghadapi PSIS Semarang.</p>
+                            <p>Bisa dibilang, laga PERSIB kontra PSIS tersebut menjadi debut manis bagi Bule karena meski tampi sebagai pemain pengganti, ia bisa langsung menyumbang satu assist untuk David Da Silva di pertandingan yang berakhir dengan kemenangan 3-1 untuk PERSIB.</p>
+                            <p>Sayang, pada musim 2024/2025, Rezaldi cukup lama menepi dari rumput hijau karena mengalami cedera. Di musim itu, pemilik nomor punggung 56 itu hanya mengantongi satu kali penampilan yaitu di laga kontra Dewa United yang digelar di Stadion Kapten I Wayan Dipta, Gianyar, 19 Agustus 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="12" data-posisi="Belakang" data-jersey-number="5">
+                    <img src="pict/kakang.jpeg" alt="Kakang Rudianto">
+                    <h4>Kakang Rudianto</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Cianjur</p>
+                        <p class="data-tanggal-lahir">02 Februari 2003</p>
+                        <p class="data-tanggal-gabung">28 Juli 2022</p>
+                        <div class="data-deskripsi">
+                            <p>Bek tengah muda asal Cianjur yang tengah bersinar di skuad Pangeran Biru. Dengan tinggi 185 cm, Kakang memiliki postur tubuh yang ideal untuk seorang bek tengah modern, yang membuatnya kuat dalam duel udara dan tangguh dalam bertahan.</p>
+                            <p>Kakang Rudianto memulai perjalanan karier profesional sepak bola dari keikutsertaannya bersama PERSIB U-18 periode 2018–2019. Kakang bersama rekan-rekan satu timnya mengantarkan PERSIB U-18 menorehkan prestasi runner-up di ajang Elite Pro Akademi Liga 1 U-18 2021.</p>
+                            <p>Kemudian, Kakang mengikuti program Garuda Select II dan Garuda Select III. Lewat program tersebut, dia bersama 25 pemain lain terpilih diberangkatkan ke Italia dan Inggris untuk mendapatkan pelatihan khusus.</p>
+                            <p>Mengawali debut nya bersama Pangeran Biru, pada pertandingan melawan Persikabo 1973 pada 29 Januari 2022, Kakang berhasil mencetak gol pertamanya membawa PERSIB menang dengan skor 1-0 di Stadion Gusti Ngurah Rai, Bali. </p>
+                            <p>Dengan penampilan 13 pertandingan dan 849 menit bermain, Kakang turut berjuang menyumbangkan gelar untuk PERSIB di musim 2023/24.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="13" data-posisi="Belakang" data-jersey-number="66">
+                    <img src="pict/robi.jpeg" alt="Robi Darwis">
+                    <h4>Robi Darwis</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Defender</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Cianjur</p>
+                        <p class="data-tanggal-lahir">02 Agustus 2003</p>
+                        <p class="data-tanggal-gabung">10 Juni 2022</p>
+                        <div class="data-deskripsi">
+                            <p>Robi Darwis, lahir di Cianjur pada 2 Agustus 2003, merupakan hasil binaan Akademi dan Diklat Persib yang mampu memainkan beberapa peran di lapangan, terutama sebagai bek kanan ataupun sebagai gelandang bertahan. </p>
+                            <p>Dikenal sebagai pemain yang pekerja keras dan memiliki kemampuan dalam membaca permainan yang baik, Robi juga memiliki ciri khas yakni lemparan ke dalam dengan jarak yang cukup jauh.</p>
+                            <p>Memulai karier sepak bola dari SSB Atep7 di Cianjur, kemudian mengikuti pelatihan di Akademi Persib. Robi Darwis mulai menarik perhatian ketika tampil di ajang Elite Pro Academy 2019. Dipercaya sebagai kapten tim Maung Ngora, Ia berhasil membawa tim menembus persaingan nasional. Dari performanya itu, pemain berpostur 170cm itu dipromosikan ke tim senior PERSIB dan mulai menjalani debut di Liga 1 pada 24 Juli 2022 melawan Bhayangkara FC. </p>
+                            <p>Pada musim debutnya itu, ia tampil impresif dengan mencatat akurasi umpan sebesar 77% dan total 11 umpan kunci. Di musim-musim selanjutnya, Robi Darwis tetap menjadi bagian penting dalam rotasi tim dan tampil sebagai gelandang bertahan maupun bek kanan. Performa dan kontribusinya yang konsisten, termasuk dalam aspek bertahan maupun distribusi bola menjadikan Robi sebagai salah satu aset muda yang menjanjikan di PERSIB. Hingga Agustus 2025, Robi Darwis telah mencatat total 42 penampilan bersama Pangeran Biru di Liga 1. </p>
+                            <p>Robi Darwis juga menjadi salah satu pemain andalan Timnas U-23 Indonesia di Piala AFF U-23 2025. Mengenakan jersey nomor punggung 6 ia juga mampu memainkan 'posisi nomor 6’ dengan baik. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="14" data-posisi="Gelandang" data-jersey-number="15">
+                    <img src="pict/saddil.jpeg" alt="Saddil Ramdani">
+                    <h4>Saddil Ramdani</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Raha</p>
+                        <p class="data-tanggal-lahir"></p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="15" data-posisi="Gelandang" data-jersey-number="8">
+                    <img src="pict/eliano.jpeg" alt="Eliano Reijnders">
+                    <h4>Eliano Reijnders</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Tampere, Finlandia</p>
+                        <p class="data-tanggal-lahir">23 Oktober 2000</p>
+                        <p class="data-tanggal-gabung">01 September 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="16" data-posisi="Gelandang" data-jersey-number="6">
+                    <img src="pict/haye.jpeg" alt="Thom J.M Haye">
+                    <h4>Thom J.M Haye</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Amsterdam, Belanda</p>
+                        <p class="data-tanggal-lahir">09 Februari 1995</p>
+                        <p class="data-tanggal-gabung">01 September 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="17" data-posisi="Gelandang" data-jersey-number="33">
+                    <img src="pict/athaya.jpeg" alt="Athaya Zahran">
+                    <h4>Athaya Zahran</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir"></p>
+                        <p class="data-tanggal-gabung">01 Agustus 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="18" data-posisi="Gelandang" data-jersey-number="24">
+                    <img src="pict/putros.jpeg" alt="Frans Putros">
+                    <h4>Frans Putros</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Iraq</p>
+                        <p class="data-tempat-lahir">Aarhus, Denmark</p>
+                        <p class="data-tanggal-lahir">14 Juli 1993</p>
+                        <p class="data-tanggal-gabung"></p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="19" data-posisi="Gelandang" data-jersey-number="85">
+                    <img src="pict/nazriel.jpeg" alt="Nazriel A Syahdan">
+                    <h4>Nazriel A Syahdan</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir">01 Februari 2008</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>Nazriel Alfaro Syahdan, seorang gelandang muda berbakat yang lahir pada tanggal 1 Februari 2008, kini menapaki jejaknya di kancah sepak bola profesional bersama PERSIB . Di usianya yang baru menginjak 17 tahun, dengan tinggi 174 cm, Nazriel telah berhasil menarik perhatian dengan kualitas permainannya, hingga mendapatkan tempat di dalam skuad resmi PERSIB Bandung dengan nomor punggung 85.   </p>
+                            <p>Keberadaannya di PERSIB bukan hanya sekadar pelengkap, melainkan indikasi kuat akan potensi besar yang dimilikinya sebagai produk binaan lokal. Puncak pengakuan atas bakatnya datang melalui pemanggilan ke Tim Nasional Sepak Bola U-17 Indonesia, sebuah pencapaian signifikan yang menempatkannya di antara talenta-talenta muda terbaik di tanah air. </p>
+                            <p>Sebagai seorang gelandang, Nazriel diharapkan mampu menunjukkan kemampuan dalam membaca permainan, distribusi bola yang akurat, serta kontribusi aktif dalam fase transisi baik saat menyerang maupun bertahan. Pengalaman berlatih bersama para senior di Persib Bandung, seperti Marc Klok atau Dedi Kusnandar, akan menjadi bekal tak ternilai untuk mengasah kematangan teknis dan mentalnya.  </p>
+                            <p>Dengan dukungan penuh dari klub dan potensi yang terus berkembang, Nazriel Alfaro Syahdan diproyeksikan sebagai salah satu pilar lini tengah PERSIB di masa depan, sekaligus harapan baru bagi Tim Nasional Indonesia. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="20" data-posisi="Gelandang" data-jersey-number="29">
+                    <img src="pict/berg.jpeg" alt="Berguinho Da Silva">
+                    <h4>Berguinho Da Silva</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Brasil</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir">18 Februari 1997</p>
+                        <p class="data-tanggal-gabung"></p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="21" data-posisi="Gelandang" data-jersey-number="27">
+                    <img src="pict/luciano.jpeg" alt="Luciano Guaycochea">
+                    <h4>Luciano Guaycochea</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Argentina</p>
+                        <p class="data-tempat-lahir">La Pampa</p>
+                        <p class="data-tanggal-lahir">24 April 1992</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="22" data-posisi="Gelandang" data-jersey-number="10">
+                    <img src="pict/wiliam.jpeg" alt="Wiliam Marcilio">
+                    <h4>Wiliam Marcilio</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Brasil</p>
+                        <p class="data-tempat-lahir">Rio de Janeiro</p>
+                        <p class="data-tanggal-lahir">31 Agustus 1996</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>Wiliam Moreira da Silva Marcilio adalah pesepak bola profesional asal Brasil yang berposisi sebagai gelandang serang atau sayap kiri. Ia bergabung dengan Persib Bandung pada 25 Juni 2025, menandatangani kontrak berdurasi dua tahun, dan mengenakan nomor punggung 10. Nomor ini sarat makna dan harapan Bobotoh untuk melihatnya menjadi motor serangan tim. </p>
+                            <p>Sebelum bergabung dengan Persib, Wiliam memiliki pengalaman bermain di berbagai klub, termasuk di tanah kelahirannya Brasil, Ukraina (Metalist 1925), Malta (Naxxar Lions), dan di Indonesia bersama Arema FC pada musim 2024–2025. Bersama Arema FC, ia sempat meraih gelar juara Piala Presiden 2024 dan mendapatkan penghargaan Player of the Month pada Oktober–November 2024. </p>
+                            <p>Wiliam dikenal memiliki visi bermain yang baik, kemampuan menciptakan peluang, dan juga mencetak gol. Kehadirannya diharapkan membawa kreativitas dan teknikalitas gaya bermain Brasil ke lini serang PERSIB.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="23" data-posisi="Gelandang" data-jersey-number="93">
+                    <img src="pict/adamalis.jpeg" alt="Adam Alis S">
+                    <h4>Adam Alis S</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Jakarta</p>
+                        <p class="data-tanggal-lahir">19 Desember 1993</p>
+                        <p class="data-tanggal-gabung">16 Juli 2024</p>
+                        <div class="data-deskripsi">
+                            <p>Adam Alis Setyano merupakan rekrutan PERSIB untuk kompetisi 2024/2025. Ia memiliki perjalanan karier yang panjang dan beragam. Ia memulai karier juniornya di SSB Persigawa Selatan dan SSB ASIOP, sebelum bermain untuk klub-klub seperti Persitangsel Tangerang Selatan dan Perserang Serang. Ia juga pernah membela Martapura FC dan Persija Jakarta.</p>
+                            <p>Pada tahun 2015, Adam sempat bergabung dengan klub Liga Utama Bahrain, East Riffa. Setelah kembali ke Indonesia, ia bermain untuk Barito Putera, Bhayangkara FC, Persija Jakarta (lagi), Arema FC, dan Borneo FC sebelum bergabung dengan PERSIB.</p>
+                            <p>Adam Alis dikenal sebagai gelandang yang energik, memiliki kemampuan olah bola yang baik, visi bermain yang luas, dan kontribusi yang signifikan dalam membangun serangan serta bertahan. Ia juga merupakan pemain Tim Nasional Indonesia dan telah tampil di berbagai pertandingan internasional, termasuk Kualifikasi Piala Dunia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="24" data-posisi="Gelandang" data-jersey-number="7">
+                    <img src="pict/beckham.jpeg" alt="Beckham Putra N">
+                    <h4>Beckham Putra N</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Bandung</p>
+                        <p class="data-tanggal-lahir">29 Oktober 2001</p>
+                        <p class="data-tanggal-gabung">13 Agustus 2018</p>
+                        <div class="data-deskripsi">
+                            <p>Liga 1 2023/2024 akan menjadi musim ke-6 Beckham Putra Nugraha bersama PERSIB. Pemain binaan PERSIB ini promosi setelah mengantarkan PERSIB U-19 meraih gelar juara Elite Pro Academy Liga U-19 2018.</p>
+                            <p>Tidak berlebihan rasanya jika Beckham merupakan contoh produk binaan PERSIB yang berhasil. Dia bergabung bersama skuad Pangeran Biru pada usia 18 tahun, tercatat menjadi pemain kelahiran era milenial (generasi 2000) pertama yang berseragam PERSIB senior.</p>
+                            <p>Etam, panggilan akrabnya, bukan sekadar terdaftar, pada Liga 1 2019, Beckham dipercaya pelatih Robert Alberts untuk tampil di pertandingan resmi. Sebuah pencapaian yang patut diacungi jempol, mengingat usianya yang masih belia.</p>
+                            <p>Kemampuan Etam pun menarik perhatian pelatih Tim Nasional Indonesia U-19, Fakhri Husaini. Sepanjang musim 2019, Etam hanya tampil dalam 4 pertandingan PERSIB lantaran kerap mengikuti agenda Timnas U-19 di ajang internasional.</p>
+                            <p>Pencapaian individu bersama PERSIB musim lalu pun menambah catatan mentereng pemain bernomor punggung 7 tersebut. Selain mengantarkan juara PERSIB U-16 hingga U19, musim lalu Beckham ikut mengantarkan PERSIB merebut juara Liga 1 2023/2024.</p>
+                            <p>Menyongsong musim 2024/2025, Etam memiliki banyak impian. Pemain kelahiran Bandung, 29 Oktober 2001 ini pun memiliki tanggung jawab besar untuk mengharumkan klub kebanggaan, termasuk dalam kompetisi level Asia, AFC Champions League Two (ACL 2). </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="25" data-posisi="Gelandang" data-jersey-number="13">
+                    <img src="pict/febri.jpeg" alt="Febri Haryadi">
+                    <h4>Febri Haryadi</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Bandung</p>
+                        <p class="data-tanggal-lahir">19 Februari 1996</p>
+                        <p class="data-tanggal-gabung">31 Desember 2015</p>
+                        <div class="data-deskripsi">
+                            <p>Febri Hariyadi masih menjadi salah satu senjata tim PERSIB dalam mengarungi kompetisi Liga 1 2024-25. Kecepatan, kualitas teknik penguasaan bola hingga insting mencetak gol penyerang sayap bernomor punggung 13 itu tetap diharapkan di tim asuhan Bojan Hodak.</p>
+                            <p>Febri merupakan salah satu pemain binaan asli Diklat PERSIB yang dibentuk pertama kalinya pada 2013 silam. Saat itu, Diklat PERSIB yang bermaterikan total 28 pemain, dipersiapkan untuk mengembangkan kemampuan para pemain muda dengan berkompetisi di Liga Super Indonesia (LSI) U-21.</p>
+                            <p>Selain Febri, Diklat PERSIB angkatan pertama juga menghasilkan Abdul Aziz Lufti Akbar dan Henhen Herdiana yang saat ini pun, masih menjadi andalan tim Pangeran Biru. Di Liga 1 musim 2023-24 dimana PERSIB keluar sebagai juaranya, Febri tampil 14 kali penampilan dan membuat 2 gol.</p>
+                            <p>Menjalani debut memperkuat PERSIB di Piala Jenderal Sudirman, 2015, Febri dipromosikan ke skuad utama oleh pelatih Pangeran Biru, Djadjang Nurdjaman di tahun 2016. Di tahun itu juga, kepercayan Djanur dibayar sang pemain melalui kontribusi 14 kali penampilan, 3 gol dan 2 assist.</p>
+                            <p>Pemain kelahiran Bandung, 19 Februari 1996 itu terus berprogres yang berujung dengan pemanggilan Tim Nasional Indonesia U-23 untuk bergabung di tim SEA Games Malaysia 2017. Febri pun sukses berkontribusi terhadap Timnas asuhan Luis Milla dengan meraih medali perunggu.</p>
+                            <p>Sementara di klub, Febri terbilang mencatatkan musim terbaiknya ketika tampil di Liga 1 2019 setelah mengoleksi 29 kali penampilan dan 9 gol. Tercatat, ia juga mencatatkan dua kali brace yaitu saat turun di pertandingan melawan Kalteng Putra dan Persebaya Surabaya.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="26" data-posisi="Gelandang" data-jersey-number="23">
+                    <img src="pict/marc.jpeg" alt="Marc A Klok">
+                    <h4>Marc A Klok</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">MidFielder</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Amsterdam, Belanda</p>
+                        <p class="data-tanggal-lahir">20 April 1993</p>
+                        <p class="data-tanggal-gabung">31 Mei 2021</p>
+                        <div class="data-deskripsi">
+                            <p>Marc Anthony Klok, lahir di Amsterdam, Belanda pada 20 April 1993, saat ini Klok adalah kapten dan pilar penting PERSIB. Sebelum menjadi Warga Negara Indonesia (WNI), Klok memulai karier profesionalnya di Belanda, tepatnya di Jong FC Utrecht.</p>
+                            <p>Setelah menimba ilmu di akademi Jong FC Utrecht, Klok mendapatkan kesempatan untuk bermain di kompetisi yang lebih tinggi. Pada tahun 2013, ia bergabung dengan Ross County, sebuah klub yang berkompetisi di Liga Utama Skotlandia. Pengalaman bermain di Skotlandia memberikan Klok tantangan baru dan membuatnya lebih matang sebagai pemain.</p>
+                            <p>Tak puas dengan pencapaiannya, Klok kemudian melanjutkan kariernya ke Bulgaria dengan bergabung bersama Cherno More Varna. Disana, Klok berhasil meraih beberapa gelar, termasuk Piala Bulgaria dan Piala Super Bulgaria.</p>
+                            <p>Setelah beberapa musim berkarier di Eropa, Klok memutuskan untuk memulai petualangan baru di Indonesia. Ia bergabung dengan PSM Makassar dan langsung menjadi pemain kunci. Adaptasi dengan iklim dan gaya bermain yang berbeda di Indonesia tidak menyulitkan Klok. Performa nya membuat namanya semakin dikenal di kancah sepak bola Indonesia dan kemudian bergabung Persija Jakarta.</p>
+                            <p>Kepindahan Klok ke PERSIB pada tahun 2021 menjadi salah satu transfer paling menarik di Liga 1. Sejak bergabung dengan Pangeran Biru, Klok langsung menjadi jantung permainan tim. Kepemimpinannya yang kuat dan kemampuannya dalam mengatur ritme permainan membuat Klok menjadi kapten tim yang sangat berpengaruh.</p>
+                            <p>Musim 2023/2024 menjadi musim yang paling mengesankan bagi Marc Klok bersama PERSIB. </p>
+                            <p>Klok bermain 2.792 menit di Liga 1 musim lalu. Waktunya yang luas di lapangan menggarisbawahi pentingnya bagi tim dan penampilannya yang konsisten sepanjang musim.</p>
+                            <p>Dengan catatan 5 gol dan 7 assist dari 34 pertandingan, Klok berhasil membawa PERSIB meraih gelar juara Liga 1. Performanya yang konsisten sepanjang musim membuatnya terpilih sebagai Best XI of the season Liga 1 2023/2024.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="27" data-posisi="Penyerang" data-jersey-number="9">
+                    <img src="pict/jung.jpeg" alt="Andrew Jung">
+                    <h4>Andrew Jung</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Striker</p>
+                        <p class="data-kewarganegaraan">Prancis</p>
+                        <p class="data-tempat-lahir"></p>
+                        <p class="data-tanggal-lahir">08 Oktober 1997</p>
+                        <p class="data-tanggal-gabung">01 September 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="28" data-posisi="Penyerang" data-jersey-number="11">
+                    <img src="pict/ramon.jpeg" alt="Ramon Tangue">
+                    <h4>Ramon Tangue</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Striker</p>
+                        <p class="data-kewarganegaraan">Brasil</p>
+                        <p class="data-tempat-lahir">Belem</p>
+                        <p class="data-tanggal-lahir">10 September 1998</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi"></div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="29" data-posisi="Penyerang" data-jersey-number="99">
+                    <img src="pict/uilliam.jpeg" alt="Uilliam Barros P">
+                    <h4>Uilliam Barros P</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Striker</p>
+                        <p class="data-kewarganegaraan">Brasil</p>
+                        <p class="data-tempat-lahir">Bonito</p>
+                        <p class="data-tanggal-lahir">11 Oktober 1994</p>
+                        <p class="data-tanggal-gabung">01 Juli 2025</p>
+                        <div class="data-deskripsi">
+                            <p>PERSIB terus menambah kekuatan skuad jelang bergulirnya Liga Super Indonesia musim 2025/26 dan laga playoff AFC Champions League (ACL) Two. Salah satunya dengan merekrut Uilliam Barros Pereira, penyerang asal Brasil berusia 30 tahun, dengan durasi kontrak dua tahun.</p>
+                            <p>Kehadiran Barros di lini depan PERSIB dipercaya akan memberikan variasi bagi permainan PERSIB. Sebab, ia tidak hanya punya kecepatan, tetapi juga pergerakan yang cerdas dan jadi target man di dalam kotak penalti yang efektif.</p>
+                            <p>Sebelum membela PERSIB, Barros punya segudang pengalaman bermain di negara-negara Timur Tengah. Pada musim kompetisi 2024/25, ia tampil 14 kali di Liga Premier Kuwait dan mencetak 8 gol. Catatan tersebut dianggap sebagai modal yang baik bagi Pangeran Biru dalam menatap ACL Two.</p>
+                            <p>Barros tampil sebagai pengganti Ramon de Andrade Souza pada laga persahabatan PERSIB kontra Western Sydney Wanderers di Stadion Gelora Bandung Lautan Api (GBLA), Kota Bandung, Sabtu, 2 Juli 2025 dalam rangkaian acara Pesta Biru.</p>
+                            <p>Dalam beberapa kesempatan, penyerang kelahiran Bonito, 11 Oktober 1994 itu mampu menebar ancaman ke gawang tim berjuluk Si Merah Hitam tersebut. Menarik menantikan aksi pemain yang pernah membukukan 22 gol dalam 19 penampilannya untuk Fahaheel SC di Liga Kuwait musim 2024/25 itu.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" data-id="30" data-posisi="Penyerang" data-jersey-number="87">
+                    <img src="pict/zulkifli.jpeg" alt="Zulkifli Lukmansyah">
+                    <h4>Zulkifli Lukmansyah</h4>
+                    <div class="detail-pemain" style="display: none;">
+                        <p class="data-posisi">Striker</p>
+                        <p class="data-kewarganegaraan">Indonesia</p>
+                        <p class="data-tempat-lahir">Bandung</p>
+                        <p class="data-tanggal-lahir">08 September 2006</p>
+                        <p class="data-tanggal-gabung">23 Desember 2024</p>
+                        <div class="data-deskripsi">
+                            <p>Zulkifli adalah seorang penyerang cepat dengan naluri mencetak gol yang tinggi. Saat masih bermain untuk PERSIB U20 yang dilatih oleh Sabrun Hanafi pada musim 2024/25 lalu, pemain kelahiran Bandung, 8 September 2006 itu melakoni 19 kali penampilan di Elite Pro Academy (EPA) Liga 1 U20 dengan catatan 8 gol dan 3 assist.</p>
+                            <p>Zulkifli Lukmansyah merupakan produk binaan Akademi PERSIB yang telah mentas di berbagai kejuaraan level nasional. Selain tampil di EPA U20, ia juga telah membela Pangeran Biru sejak berkompetisi di Elite Pro Academy (EPA) U16 dan U18.</p>
+                            <p>Di kompetisi EPA, Zul memang belum pernah membawa Maung Ngora menjadi juara namun, ia pernah mengangkat trofi bersama PERSIB U17 di Piala Nusantara pada 2023 lalu. Saat itu, Sang Juara, tim PERSIB U17 mendapat hadiah menjalani program latihan di Inspire Academy, Qatar.</p>
+                            <p>Pada 27 Desember 2024, PERSIB mengikat Zul secara profesional melalui kontrak kerja sama dalam durasi tiga tahun sekaligus mempromosikannya ke tim utama pada paruh kedua Liga 1 Indonesia musim 2024/25, meski pada akhirnya harus bersabar mencatatkan debut di musim tersebut.</p>
+                            <p>Penantian melakoni debut bersama skuad utama PERSIB akhirnya terbayarkan dengan Zul dipercaya pelatih Bojan Hodak untuk tampil sebagai starter di ajang Piala Presiden 2025. Laga pertama, melawan klub asal Thailand, Port FC di Stadion Si Jalak Harupat pada 6 Juli 2025.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+        </section>
+        <hr>
+    </main>
+    
+    <div id="player-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-detail">
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PERSIB BANDUNG. Data di kutip dari website resmi Persib Bandung.</p>
+            <p>Dibuat oleh Azzalea Nissa sebagai Bobotoh untuk Bobotoh.</p>
+        </div>
+    </footer>
+</html>
