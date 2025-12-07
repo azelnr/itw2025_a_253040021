@@ -8,14 +8,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <!-- My Css -->
      <link rel="stylesheet" href="style.css">
 
-    <title>SPY X FAMILY | Azzalea Nissa</title>
+    <title>Portofolio | Azzalea Nissa</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">Azzalea</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +27,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projets</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -57,7 +60,7 @@
               </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-              <div class="col-4">
+              <div class="col-md-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nobis vitae tenetur inventore odit culpa dignissimos dolor unde eaque voluptatibus.</p>
               </div>
               <div class="col-4">
@@ -71,15 +74,47 @@
          <!-- Projects -->
           <section id="projects">
             <div class="container">
-            <div class="row text-center">
+            <div class="row text-center mb-3">
               <div class="col">
                 <h2>My Projects</h2>
               </div>
             </div>
-            <div class="row">
-              <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="row justify-content-center">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                <img src="img/projects/1.jpg" class="card-img-top" alt="projects 1">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                <img src="img/projects/2.jpg" class="card-img-top" alt="projects 2">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                <img src="img/projects/3.jpg" class="card-img-top" alt="projects 3">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                <img src="img/projects/4.jpg" class="card-img-top" alt="projects 4">
+                <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                <img src="img/projects/5.jpg" class="card-img-top" alt="projects 5">
                 <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -89,6 +124,43 @@
           </div>
           </section>
           <!-- Akhir Projects -->
+           <!-- Contact -->
+            <section id="contact">
+              <div class="container">
+                <div class="row text-center">
+                  <div class="col">
+                    <h2>Contact Me</h2>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <form>
+  <div class="mb-3">
+    <label for="name" class="form-label">Email address</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+  <label for="pesan" class="form-label">Pesan</label>
+  <textarea class="form-control" id="pesan" rows="3"></textarea>
+</div>
+  <button type="submit" class="btn btn-primary">Kirim</button>
+</form>
+                  </div>
+                </div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L12.6,224C25.3,192,51,128,76,90.7C101.1,53,126,43,152,85.3C176.8,128,202,224,227,261.3C252.6,299,278,277,303,266.7C328.4,256,354,256,379,234.7C404.2,213,429,171,455,144C480,117,505,107,531,90.7C555.8,75,581,53,606,69.3C631.6,85,657,139,682,181.3C707.4,224,733,256,758,277.3C783.2,299,808,309,834,288C858.9,267,884,213,909,197.3C934.7,181,960,203,985,229.3C1010.5,256,1036,288,1061,298.7C1086.3,309,1112,299,1137,250.7C1162.1,203,1187,117,1213,85.3C1237.9,53,1263,75,1288,80C1313.7,85,1339,75,1364,69.3C1389.5,64,1415,64,1427,64L1440,64L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,160L34.3,165.3C68.6,171,137,181,206,160C274.3,139,343,85,411,96C480,107,549,181,617,218.7C685.7,256,754,256,823,224C891.4,192,960,128,1029,90.7C1097.1,53,1166,43,1234,53.3C1302.9,64,1371,96,1406,112L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            </section>
+            <!-- Akhir Contact -->
+             <!-- Footer -->
+              <footer class="bg-primary text-white text-center pb-5">
+                <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="#" class="text-white fw-bold">Azzalea</a></p>
+              </footer>
+              <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
   </body>
 </html
