@@ -1,0 +1,20 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: white;
+}
+
+#about {
+    background-color: pink;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+#contact {
+    background-color: pink;
+}
+
+footer {
+    background-color: maroon;
+}
